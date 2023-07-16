@@ -5,6 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import { AuthProvider, useAuth } from "./context/auth";
+import "antd/dist/reset.css"; //css file of antdesign
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
