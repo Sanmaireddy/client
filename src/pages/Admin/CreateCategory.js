@@ -12,6 +12,7 @@ const CreateCategory = () => {
   const [visible, setVisible] = useState(false); //taking care of visibility of modal
   const [selected, setSelected] = useState(null);
   const [updatedName, setUpdatedname] = useState("");
+
   //handle form
   const handleSubmit = async (e) => {
     e.preventDefault();
